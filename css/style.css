@@ -1,0 +1,209 @@
+.container {
+    background-color: #f2f2f2;
+    /*background-image: url(../img/tui-sensatori-resort.jpg);
+background-repeat: no-repeat;
+background-position: right bottom;
+
+background-image: linear-gradient(to bottom,blue, aquamarine,white);*/
+
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* cabeçalho da pagina*/
+
+.header {
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*menu inicio da página*/
+
+.nav-bar li {
+    float: left;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding-left: 25%;
+    background-color: royalblue;
+    font-family: "Anton" sans-serif;
+}
+
+.nav-bar li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+
+.nav-bar li a:hover {
+    background-color: gold;
+    color: blue;
+}
+
+/* banner*/
+.banner img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+.resorts {
+    margin-top: 25px;
+    padding: 5px;
+    font-family: "Varela_Round", sans-serif;
+}
+
+.resorts header {
+    text-align: center;
+    color: rgb(14, 14, 145);
+    font-size: 35px;
+}
+
+.resorts article {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resorts p {
+    padding: 5px;
+    text-align: justify;
+    color: rgb(14, 14, 145);
+    font-size: 20px;
+}
+
+/*cards*/
+
+.column {
+    float: left;
+    /* width: 29%; */
+    padding: 18px;
+    /* height: 270px; */
+    margin: 2% 0 2% 0.1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+}
+
+.banner-card {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    text-align: center;
+    background-color: dimgray;
+    font-family: "Anton", sans-serif;
+}
+
+.banner-card a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* reserva*/
+.reserva {
+    background-image: linear-gradient(RoyalBlue, LightSkyBlue);
+    height: 250px;
+}
+
+.reserva h3 {
+    text-align: center;
+    font-size: 25pt;
+    color: white;
+    padding: 35px 0;
+}
+
+.reserva button {
+    background-color: gold;
+    padding: 20px 26px;
+    color: blue;
+    font-size: 20pt;
+    border-color: gold;
+    border-radius: 8px 0;
+    margin-bottom: 20px;
+    margin-left: 45%;
+}
+
+.reserva button a {
+    text-decoration: none;
+    color: blue;
+}
+
+.reserva button a:hover{
+    background-color: blue;
+    color: white;
+}
+
+/*rodapé da página*/
+.footer {
+    background-image: linear-gradient(LightSkyBlue, cornflowerblue);
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+}
+
+.footer li {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.footer ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.footer li a {
+    color:white;
+    text-decoration: none;
+    padding: 24px 20px;
+}
+
+.footer li a:hover{
+    color: blue;
+}
+
+.creditos{
+    margin-top: 2%;
+}
+
+
+
+/*para ficar expansivo*/
+.banner-central {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
