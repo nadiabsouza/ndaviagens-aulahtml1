@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta htpp-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Document</title>
+</head>
+
+<body>
+    <h1> Titulo da minha página </h1>
+    <p class="titulo" id="titulopagina"> Minha página</p>
+
+   <button type="button"onclick="abrirNovaJanela()">Clique aqui</button>
+
+
+
+</body>
+
+
+<script>
+    //var titulo = document.getElementById("titulopagina").innerHTML ="Minha página";
+
+    var titulo = document.querySelector(".titulo").textContent;
+    consolo.log(titulo);
+
+  var data = new Date();
+     console.log(data.getFullYear()); 
+     console.log(data.getMonth()); 
+     console.log(data.getDate()); 
+     console.log(data.getHours()); 
+     console.log(data.getMinutes()); 
+     console.log(data.getTime());
+
+
+     function nome(){
+        alert("ola"); 
+     }
+    
+     function outroNome(){
+        return titulo;
+     }
+    
+     function novoNome(texto){
+        return texto;
+     }
+    
+     function maisUmNome(texto){
+        alert(texto); 
+     }
+    
+     function abrirNovaJanela(){
+        window.location.href = "reverva.html"; 
+     }
+
+
+</script>
+
+</html>
